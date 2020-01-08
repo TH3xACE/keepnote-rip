@@ -9,16 +9,22 @@ apt-get install docker.io
 
 # Step 2: Run docker
 docker build -t th3xace/keepnote
+
 docker run -it --name keepnote1 th3xace/keepnote
+
 docker run -d -v /mnt:/mnt -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY --name keepnote1 th3xace/keepnote
 
 Note: the directory mnt is mapped on the host, so you can transfert files or watever from docker to host and host to docker. You can also map a usb device if you want to save the notes on a USB device. 
 
 # Step 3 : Create a script with below content.
-\#!/bin/bash
-\ service docker start
-\ xhost +
-\ docker start keepnote1
+
+#!/bin/bash
+
+service docker start
+
+xhost +
+
+docker start keepnote1
 
 or run manually by running each command, one by one.
 
