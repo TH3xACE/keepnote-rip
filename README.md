@@ -43,7 +43,7 @@ run kp in terminal.
  + Okular: Text Editor (view PDF)
  + Nautilus: File Explorer
  
- It is normally already configures in the keepnote (Edit > Preferences > Helper Applications)
+ It is normally already configured in the keepnote (Edit > Preferences > Helper Applications)
  
  Enjoy! Keepnote on the new KALI.
  
