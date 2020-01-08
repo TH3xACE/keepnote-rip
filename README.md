@@ -28,9 +28,15 @@ docker start keepnote1
 
 or run manually by running each command, one by one.
 
-# Step 4 : Run the script through .bashrc or as me through screen manager config with something as below
-bash keepnote.sh
+# Step 4 : Run the script through .bashrc 
+put the below entry in the .bashrc
+alias kp='bash /root/.scripts/keepnote.sh'
 
+# Step 5 : Refresh .bashrc 
+source /root/.bashrc
+
+# Step 6 : run keepnote
+run kp in terminal.
 
 # The docker containes the following apps to be used via keepnote:
  + Firefox:  A browser to view notes in a web browser
