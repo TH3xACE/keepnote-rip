@@ -8,7 +8,7 @@ A +1 star if the below helps you guys.
 apt-get install docker.io
 
 # Step 2: Run docker
-docker build -t th3xace/keepnote
+docker pull th3xace/keepnote
 
 docker run -it --name keepnote1 th3xace/keepnote
 
