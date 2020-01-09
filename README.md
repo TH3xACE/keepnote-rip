@@ -38,7 +38,7 @@ source /root/.bashrc
 # Step 6 : run keepnote
 run kp in terminal.
 
-# The docker containes the following apps to be used via keepnote:
+# The docker already contains the following apps to be used via keepnote:
  + Firefox:  A browser to view notes in a web browser
  + Okular: Text Editor (view PDF)
  + Nautilus: File Explorer
